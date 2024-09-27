@@ -64,6 +64,18 @@ h1{
     font-weight: 400;
 }
 
+@media(max-width: 375px){
+    #container{
+        height: 565px;
+        width: 330px;
+        padding: 10px;
+    }
+
+    img{
+        margin-top: 12px;
+    }
+}
+
 .attribution { 
     font-size: 11px; text-align: center; }
     
