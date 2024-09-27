@@ -1,3 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.link:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 0%);
+    font-weight: 700;
+    cursor: pointer;
+}
+
 body{
     font-family: "Inter";
     display: flex;
@@ -6,33 +19,51 @@ body{
     height: 100vh;
     font-size: 14px;
     background-color: hsl(0, 0%, 8%);
-    color: hsl(0, 0%, 100%);
 }
+
 .link{
+    color: hsl(0, 0%, 100%);
     background-color:hsl(0, 0%, 20%) ;
-    margin: 12px;
+    margin: 15px;
     border-radius: 5px;
-    padding: 8px;
+    padding: 13px;
 }
 
 #container{
     border-radius: 10px;
-    padding: 20px;
+    padding: 22px;
     background-color: hsl(0, 0%, 12%);
-    width: 300px;
-    margin: 0 auto;
+    height: 600px;
+    width: 370px;
     text-align: center;
 }
 
 .p{
+    font-weight: 400;
     color:  hsl(75, 94%, 57%);
+    margin-bottom: 10px;
+}
+
+p{
+    color: hsl(0, 0%, 100%);
+    font-weight: 200;
+    padding: 10px;
+    font-size: 14px;
 }
 
 img{
-    height: 70px;
-    width: 70px;
+    margin: 25px;
+    height: 85px;
+    width: 85px;
     border-radius: 100%;
 }
+
+h1{ 
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+    font-weight: 400;
+}
+
 .attribution { 
     font-size: 11px; text-align: center; }
     
